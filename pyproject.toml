@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "deltasense"
+version = "0.1.0"
+description = "Compare computer vision observations in aligned before and after images."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==2.5.2",
+    "Pillow==12.3.0",
+    "ultralytics==8.4.171",
+    "torch==2.14.1",
+    "torchvision==0.29.1",
+]
+
+[project.urls]
+Repository = "https://github.com/Andyyyy64/deltasense"
+Issues = "https://github.com/Andyyyy64/deltasense/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "hypothesis>=6,<7", "pytest-cov>=6,<8", "ruff>=0.14,<1", "build>=1,<2"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/deltasense"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "scripts", "docs", "evaluation", "README.md", "CHANGELOG.md", "pyproject.toml", "LICENSE", ".github/workflows"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

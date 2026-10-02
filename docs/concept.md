@@ -6,6 +6,11 @@ The project starts with Ultralytics because it already gives detection, segmenta
 
 ## Initial direction
 
+v0.1 implements detection and instance-segmentation
+comparison. The original starting direction below describes the product intent;
+[release requirements](requirements.md) and [the API contract](api.md) define the
+implemented scope. See [validation](validation.md) for what has actually been tested.
+
 The first useful version should stay small:
 
 1. Accept a before image and an after image.
@@ -13,13 +18,19 @@ The first useful version should stay small:
 3. Compare the returned results.
 4. Report changes in a plain Python object that can also be written as JSON.
 
-For detections, that may mean class count changes. Segmentation can later add area and shape changes. Pose and depth should wait until a real use case needs them.
+v0.1 compares prediction counts, conservative spatial correspondences, bbox
+displacement/area, and mask area/support differences. It does not infer physical
+shape changes from a spatial mask difference. Pose and depth should wait until a
+real use case needs them.
 
 ## What model output can and cannot prove
 
 A difference between predictions is not always a difference in the photographed subject. The camera may have moved. Lighting may have changed. An object may be hidden, blurred, or missed by the model.
 
-DeltaSense should report those limits instead of turning every difference into a change claim. A result may be comparable, unobservable, or confounded by the capture conditions.
+DeltaSense reports those limits instead of turning every difference into a change
+claim. v0.1 distinguishes measurement availability and explicitly unchecked capture
+conditions. It does not assign a global verified-comparable/unobservable/confounded
+verdict without the evidence to support it.
 
 ## Why keep it generic
 

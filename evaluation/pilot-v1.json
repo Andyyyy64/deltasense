@@ -1,0 +1,389 @@
+{
+  "schema_version": "1",
+  "annotation_status": "provisional_assistant_visual_review",
+  "independent_human_review": false,
+  "annotation_method": "Manually read unannotated original images before this new benchmark inference. Earlier baseline predictions for some images were already known; this is not a blinded or held-out benchmark. Approximate visible-object boxes, not masks or amodal boxes. Identity is visually inferred from this one short continuous clip.",
+  "frozen_before_new_inference": true,
+  "sampling": "Preselected timestamps from one fixed-view Apollo clip plus three existing static photographs. 0s title and uncertain partially visible 10/20s astronaut excluded before inference. Reverse 80/60 reuses data. Nearby frames and repeat photographs are correlated.",
+  "sources": [
+    "scikit-image v0.25.2 static data; credits in docs/validation.md",
+    "Apollo NASA film: sources/apollo11.mov SHA256 f48960f089ade191ca56a99fa854359a161f5757a569584087b8ec89feaf9148; frame extraction ffmpeg -ss TIME -frames:v 1"
+  ],
+  "images": [
+    {
+      "id": "astronaut",
+      "path": "sources/astronaut.png",
+      "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+      "size": [
+        512,
+        512
+      ],
+      "scene": "astronaut",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": [
+        {
+          "object_id": "collins",
+          "class_id": 0,
+          "bbox_xyxy": [
+            0,
+            15,
+            410,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "path": "sources/coffee.png",
+      "sha256": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+      "size": [
+        600,
+        400
+      ],
+      "scene": "coffee",
+      "scope_class_ids": [
+        41,
+        44
+      ],
+      "objects": [
+        {
+          "object_id": "cup",
+          "class_id": 41,
+          "bbox_xyxy": [
+            173,
+            18,
+            407,
+            304
+          ]
+        },
+        {
+          "object_id": "spoon",
+          "class_id": 44,
+          "bbox_xyxy": [
+            326,
+            65,
+            429,
+            328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chelsea",
+      "path": "sources/chelsea.png",
+      "sha256": "596aa1e7cb875eb79f437e310381d26b338a81c2da23439704a73c4651e8c4bb",
+      "size": [
+        451,
+        300
+      ],
+      "scene": "chelsea",
+      "scope_class_ids": [
+        15
+      ],
+      "objects": [
+        {
+          "object_id": "cat",
+          "class_id": 15,
+          "bbox_xyxy": [
+            0,
+            0,
+            355,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apollo-030",
+      "path": "accuracy-pilot/frames/apollo-030.png",
+      "sha256": "2e9071e4c1c6746944c4940bc2560c87fb05aec2cb80a49188408cee6b5cd404",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": [
+        {
+          "object_id": "eva1",
+          "class_id": 0,
+          "bbox_xyxy": [
+            80,
+            152,
+            155,
+            264
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apollo-040",
+      "path": "accuracy-pilot/frames/apollo-040.png",
+      "sha256": "dca3e05a272bfecc31a007c080201c23410d9f5cc26f1e40219c2efb91c58ec2",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": [
+        {
+          "object_id": "eva1",
+          "class_id": 0,
+          "bbox_xyxy": [
+            144,
+            134,
+            201,
+            244
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apollo-050",
+      "path": "accuracy-pilot/frames/apollo-050.png",
+      "sha256": "230236bc26b70620b414550f04daa7b617dfe134181ada2cfe8bade84ea53910",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": [
+        {
+          "object_id": "eva1",
+          "class_id": 0,
+          "bbox_xyxy": [
+            137,
+            133,
+            196,
+            246
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apollo-060",
+      "path": "accuracy-pilot/frames/apollo-060.png",
+      "sha256": "ad88163f28445a9ac87f421e578e66db6a5d296cb0631e97744ee151518cabc1",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": [
+        {
+          "object_id": "eva1",
+          "class_id": 0,
+          "bbox_xyxy": [
+            139,
+            127,
+            187,
+            235
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apollo-080",
+      "path": "accuracy-pilot/frames/apollo-080.png",
+      "sha256": "70f3584317b3becf2b3fa3d31dcbc9b6c21befeacb05791f8c5710541d55b306",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": []
+    },
+    {
+      "id": "apollo-090",
+      "path": "accuracy-pilot/frames/apollo-090.png",
+      "sha256": "4eb5c818b2694bf69d3d653f0ee147b9f8ae8743e7baa75857f01d4575bc4700",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": []
+    },
+    {
+      "id": "apollo-100",
+      "path": "accuracy-pilot/frames/apollo-100.png",
+      "sha256": "919ec63c57b44d3a18f79a5337ac24adfbe0e70f1048881dba144f8d4456906c",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": []
+    },
+    {
+      "id": "apollo-110",
+      "path": "accuracy-pilot/frames/apollo-110.png",
+      "sha256": "085cb6d6d4ba6a6dde4d817de1b61153b81587607351dfdce47f88ae197c338a",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": []
+    },
+    {
+      "id": "apollo-120",
+      "path": "accuracy-pilot/frames/apollo-120.png",
+      "sha256": "8900be46a8f9e94a9e724fb81c922ea2fb6202de65b66351ad1b1b36ce56fef7",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": []
+    },
+    {
+      "id": "apollo-121",
+      "path": "accuracy-pilot/frames/apollo-121.png",
+      "sha256": "f9a348cd3665806242af2fb28b900dbb92a97b82caa402bfbdbfc44695b0cfe3",
+      "size": [
+        352,
+        264
+      ],
+      "scene": "apollo",
+      "scope_class_ids": [
+        0
+      ],
+      "objects": []
+    }
+  ],
+  "pairs": [
+    {
+      "id": "astronaut-repeat",
+      "before": "astronaut",
+      "after": "astronaut",
+      "stratum": "same_file_repeat"
+    },
+    {
+      "id": "coffee-repeat",
+      "before": "coffee",
+      "after": "coffee",
+      "stratum": "same_file_repeat"
+    },
+    {
+      "id": "chelsea-repeat",
+      "before": "chelsea",
+      "after": "chelsea",
+      "stratum": "same_file_repeat"
+    },
+    {
+      "id": "apollo-030-040",
+      "before": "apollo-030",
+      "after": "apollo-040",
+      "stratum": "subject_motion"
+    },
+    {
+      "id": "apollo-040-050",
+      "before": "apollo-040",
+      "after": "apollo-050",
+      "stratum": "subject_motion"
+    },
+    {
+      "id": "apollo-050-060",
+      "before": "apollo-050",
+      "after": "apollo-060",
+      "stratum": "subject_motion"
+    },
+    {
+      "id": "apollo-060-080",
+      "before": "apollo-060",
+      "after": "apollo-080",
+      "stratum": "visible_count_change"
+    },
+    {
+      "id": "apollo-080-060",
+      "before": "apollo-080",
+      "after": "apollo-060",
+      "stratum": "visible_count_change"
+    },
+    {
+      "id": "apollo-080-090",
+      "before": "apollo-080",
+      "after": "apollo-090",
+      "stratum": "empty_recapture"
+    },
+    {
+      "id": "apollo-090-100",
+      "before": "apollo-090",
+      "after": "apollo-100",
+      "stratum": "empty_recapture"
+    },
+    {
+      "id": "apollo-100-110",
+      "before": "apollo-100",
+      "after": "apollo-110",
+      "stratum": "empty_recapture"
+    },
+    {
+      "id": "apollo-110-120",
+      "before": "apollo-110",
+      "after": "apollo-120",
+      "stratum": "empty_recapture"
+    },
+    {
+      "id": "apollo-120-121",
+      "before": "apollo-120",
+      "after": "apollo-121",
+      "stratum": "empty_recapture"
+    },
+    {
+      "id": "apollo-030-120",
+      "before": "apollo-030",
+      "after": "apollo-120",
+      "stratum": "visible_count_change"
+    }
+  ],
+  "settings": {
+    "device": "cpu",
+    "conf": 0.25,
+    "iou": 0.7,
+    "imgsz": 640,
+    "max_det": 300,
+    "match_iou": 0.2
+  },
+  "evaluation": {
+    "localization_iou": 0.5,
+    "sensitivity_ious": [
+      0.3,
+      0.5,
+      0.7
+    ],
+    "count_change_rule": "Any nonzero prediction-count delta within annotated target classes. Evaluation-only proxy, not a DeltaSense physical-change verdict.",
+    "scope": "Target classes only; other predictions are saved separately and are not automatically false positives in partially annotated images.",
+    "geometry": "No accurate physical displacement/area or segmentation-mask ground truth; do not score these."
+  }
+}

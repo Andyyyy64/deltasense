@@ -1,0 +1,721 @@
+{
+  "plan_sha256": "e56f85847404b6037090792c65134d993bafec7ed3194f50a0140fff7426f430",
+  "archive_url": "https://motchallenge.net/data/MOT17.zip",
+  "archive_etag": "\"15d4bc4f1-5b6c01991f807\"",
+  "assets": {
+    "MOT17/train/MOT17-02-SDP/gt/gt.txt": {
+      "sha256": "2e3ecb488da8886d3200d402b2b08890c6d2879923839444e9b74fa43a551440",
+      "bytes": 916738,
+      "crc32": 2809161247,
+      "archive_offset": 3235352857,
+      "compressed_bytes": 165467
+    },
+    "MOT17/train/MOT17-02-SDP/seqinfo.ini": {
+      "sha256": "f58e8717a5edb67594497a46ca8aff6212fdef8cd04aa9d0c51c811a63d6539c",
+      "bytes": 106,
+      "crc32": 1889957716,
+      "archive_offset": 3235518416,
+      "compressed_bytes": 100
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000001.jpg": {
+      "sha256": "41ff65408c5338f4a83035fd12e9f5f7b658ee82feacf4512655677032636597",
+      "bytes": 179070,
+      "crc32": 191066026,
+      "archive_offset": 3326994885,
+      "compressed_bytes": 168477
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000002.jpg": {
+      "sha256": "9312a3137c9a12524d381d85c693ed39b67374fc1872eb6b1e5a91d66e73e6ea",
+      "bytes": 179831,
+      "crc32": 1775264951,
+      "archive_offset": 3332315384,
+      "compressed_bytes": 169172
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000016.jpg": {
+      "sha256": "68565d7cdc82a83b05b1402a6095238439624105cb74bb4a7712c903832de10e",
+      "bytes": 177412,
+      "crc32": 876703038,
+      "archive_offset": 3332484654,
+      "compressed_bytes": 166971
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000061.jpg": {
+      "sha256": "aecd08dc0fecaa5405ba03e4cd4837cbfc91ba613b0be5dd33ea8ed385b990bf",
+      "bytes": 173416,
+      "crc32": 2117433436,
+      "archive_offset": 3310035097,
+      "compressed_bytes": 162771
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000078.jpg": {
+      "sha256": "24b42d0b5f389937e5522e6c90ced12894591e4ed673eda59dbdfef3864d8fa1",
+      "bytes": 184062,
+      "crc32": 1557643721,
+      "archive_offset": 3267853851,
+      "compressed_bytes": 172962
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000079.jpg": {
+      "sha256": "a2cdaa49ec65dbce9f8f7d535b2425b015b057886cb633ebca372415474b5208",
+      "bytes": 183411,
+      "crc32": 1707556992,
+      "archive_offset": 3266340390,
+      "compressed_bytes": 172212
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000093.jpg": {
+      "sha256": "83f096f04722a165a7060a2f2643dc9eef8efaab870c831f2f7fed24a2c06fc2",
+      "bytes": 179728,
+      "crc32": 3359197932,
+      "archive_offset": 3267182014,
+      "compressed_bytes": 169048
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000138.jpg": {
+      "sha256": "21614db7cf204fd859ce7b15b3a2e1917c45d1c636d5dfba3cc103099a06f2ba",
+      "bytes": 175185,
+      "crc32": 230881894,
+      "archive_offset": 3291442870,
+      "compressed_bytes": 164689
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000155.jpg": {
+      "sha256": "80891cb21fb204d28aa6bea74b2a3005a40ec30190cfb379efe0cd306eb95c91",
+      "bytes": 173678,
+      "crc32": 254736270,
+      "archive_offset": 3256537857,
+      "compressed_bytes": 163226
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000156.jpg": {
+      "sha256": "f3d743f7b917720ccf1cdc9ac291a647efc25a75268e79803214caa0e70c3272",
+      "bytes": 177096,
+      "crc32": 2320400272,
+      "archive_offset": 3263366831,
+      "compressed_bytes": 166703
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000170.jpg": {
+      "sha256": "35642acdc7b26a0242bdc82279efcd289481d637f2f693889320eda1bee9463b",
+      "bytes": 180977,
+      "crc32": 786152138,
+      "archive_offset": 3319188677,
+      "compressed_bytes": 170364
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000215.jpg": {
+      "sha256": "aa82d3852c4ab4b8a03a80f29f8a37873940827fa5d151396fc8bc7e3b1deb6b",
+      "bytes": 178745,
+      "crc32": 1374954514,
+      "archive_offset": 3333324272,
+      "compressed_bytes": 168426
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000232.jpg": {
+      "sha256": "79768c9a69e0ceb81ca432d856a9cfdc2fb92d88bd9b9c8b52b51001ec2a0710",
+      "bytes": 178462,
+      "crc32": 3514004993,
+      "archive_offset": 3247052072,
+      "compressed_bytes": 168382
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000233.jpg": {
+      "sha256": "ca8c800f634d9f91d0b7de8e825ab3966efd4dba3e7a2a2108180a0580f7f7c0",
+      "bytes": 178906,
+      "crc32": 3386299548,
+      "archive_offset": 3244358312,
+      "compressed_bytes": 168887
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000247.jpg": {
+      "sha256": "531871a188f39238d7b84ce8e9b4622493cd2139abe9b7c010aa7761de769f3d",
+      "bytes": 176591,
+      "crc32": 3148450450,
+      "archive_offset": 3265507270,
+      "compressed_bytes": 166583
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000292.jpg": {
+      "sha256": "96f64201c5778dfd7b58a4a791b2e4c35b144d5d3bfb8394ca26138062912ed0",
+      "bytes": 179149,
+      "crc32": 1691361064,
+      "archive_offset": 3275010827,
+      "compressed_bytes": 169168
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000309.jpg": {
+      "sha256": "af073140fdb2f3d75aec0d7b6c2a8038676a7c80fa106ed1cd5f06e5233efa05",
+      "bytes": 176779,
+      "crc32": 873956072,
+      "archive_offset": 3278474863,
+      "compressed_bytes": 167115
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000310.jpg": {
+      "sha256": "4d23e9274fdd033aec273a9ac22705eeb1ef7735b449e9fd7a9744e78a32f11c",
+      "bytes": 176876,
+      "crc32": 1211705849,
+      "archive_offset": 3301226729,
+      "compressed_bytes": 167255
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000324.jpg": {
+      "sha256": "34bd49af419de1a29d1853337d5cda3f8f534c13e3a4ec766f1a7f5b66f7b830",
+      "bytes": 178324,
+      "crc32": 3434866296,
+      "archive_offset": 3271505317,
+      "compressed_bytes": 168786
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000369.jpg": {
+      "sha256": "ae8a3ef3b630a22890122ed0879f6095f3706667b1ffdc894664ec23f8f14998",
+      "bytes": 178096,
+      "crc32": 1764754349,
+      "archive_offset": 3258191519,
+      "compressed_bytes": 168585
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000386.jpg": {
+      "sha256": "fff39d30fdfba21b8ed51d97274ac938930f6094c8a502e583a1553a31496bc5",
+      "bytes": 174919,
+      "crc32": 2908853918,
+      "archive_offset": 3240373758,
+      "compressed_bytes": 165681
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000387.jpg": {
+      "sha256": "3b05182b472f704b9f78d1e6e1c3b20f5982b9b39cf462feb7e1770c46f99487",
+      "bytes": 174704,
+      "crc32": 4201596446,
+      "archive_offset": 3237176132,
+      "compressed_bytes": 165302
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000401.jpg": {
+      "sha256": "237772a5d14efc4429a30c497f9ebd09341920389efa773d545dcdac8febdb14",
+      "bytes": 174253,
+      "crc32": 4113742012,
+      "archive_offset": 3323686925,
+      "compressed_bytes": 164819
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000446.jpg": {
+      "sha256": "2d2aa96e8a505fcca353bc09af48bf5caf4f3fc949de4602b3ab664f5d35fcdb",
+      "bytes": 162679,
+      "crc32": 486753439,
+      "archive_offset": 3283647697,
+      "compressed_bytes": 154415
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000463.jpg": {
+      "sha256": "55a85b81eab090f73b70e960596a3f29eb6f809f558bf72a0cf7087e1362c105",
+      "bytes": 161300,
+      "crc32": 1597929248,
+      "archive_offset": 3297567346,
+      "compressed_bytes": 153926
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000464.jpg": {
+      "sha256": "12d103396b806db663097e0e6423760e7fc3fb5cd725d74d5f1b86dc40a71d3b",
+      "bytes": 162383,
+      "crc32": 4254017776,
+      "archive_offset": 3312187583,
+      "compressed_bytes": 154815
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000478.jpg": {
+      "sha256": "eeb309ff083f21e88736bbec6a758b597e2838091e5ee8a69b2e91ad85f20482",
+      "bytes": 170980,
+      "crc32": 4187509115,
+      "archive_offset": 3285284596,
+      "compressed_bytes": 162429
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000523.jpg": {
+      "sha256": "f720ab8306ffe9734da89c92cdd3bb7f5003d8d902e5c168bc92a4e42cf44489",
+      "bytes": 173729,
+      "crc32": 3701168596,
+      "archive_offset": 3275348566,
+      "compressed_bytes": 164492
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000540.jpg": {
+      "sha256": "8acede7207162d2236a35c34f9a19bfe3229226205683f6552d06c1862fef986",
+      "bytes": 175361,
+      "crc32": 3971662832,
+      "archive_offset": 3246720528,
+      "compressed_bytes": 165482
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000541.jpg": {
+      "sha256": "b02d248478b51b016ab3b1d4efe7bcdede026e6f5072090ee9fc81a955a58811",
+      "bytes": 175992,
+      "crc32": 280799211,
+      "archive_offset": 3244693742,
+      "compressed_bytes": 166125
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000555.jpg": {
+      "sha256": "f5a85d40f5e32701df0923df2efb9e40881faf3d4f093ce157547ee2d38c8514",
+      "bytes": 176544,
+      "crc32": 857806722,
+      "archive_offset": 3244527297,
+      "compressed_bytes": 166347
+    },
+    "MOT17/train/MOT17-02-SDP/img1/000600.jpg": {
+      "sha256": "70b9ee9af88602cac0b27019a9e5210f6fe6b4c1ea996d5c13fd860f324a1daa",
+      "bytes": 179343,
+      "crc32": 1397547855,
+      "archive_offset": 3318519326,
+      "compressed_bytes": 168577
+    },
+    "MOT17/train/MOT17-04-SDP/gt/gt.txt": {
+      "sha256": "f8cfbe36ef38a2e1857d7ebfe7d754b2355a3ffb9e1f9cedea435e86e4fbc948",
+      "bytes": 3473246,
+      "crc32": 3305687821,
+      "archive_offset": 3951481672,
+      "compressed_bytes": 526467
+    },
+    "MOT17/train/MOT17-04-SDP/seqinfo.ini": {
+      "sha256": "13d2c4f151a6738d26c701f490c0d4858b8015dbcaa5b16dc26f9f1b257f50e1",
+      "bytes": 107,
+      "crc32": 495166126,
+      "archive_offset": 3952008231,
+      "compressed_bytes": 99
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000001.jpg": {
+      "sha256": "53f3d86aad1aa4912b2919bae344919b54d193e72c1c7169ce8bc4685408053c",
+      "bytes": 230263,
+      "crc32": 1609417015,
+      "archive_offset": 4174005158,
+      "compressed_bytes": 229914
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000002.jpg": {
+      "sha256": "1c6c088869ef03477a73f4d4cb90de430a456bff028734f6afe69af128a71a8b",
+      "bytes": 233663,
+      "crc32": 1582633602,
+      "archive_offset": 4187486317,
+      "compressed_bytes": 233243
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000016.jpg": {
+      "sha256": "8b480e001834b883cbed9b61cb76a00a22ad8f36215d00ed38c1a3d80be7fb9b",
+      "bytes": 231598,
+      "crc32": 1153847201,
+      "archive_offset": 4188168719,
+      "compressed_bytes": 231116
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000061.jpg": {
+      "sha256": "9e7153ead93c8d9e25e2e61300cfa59d21ef3bf5d117825cca26f14d50d63997",
+      "bytes": 232158,
+      "crc32": 136687560,
+      "archive_offset": 4131135256,
+      "compressed_bytes": 231760
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000142.jpg": {
+      "sha256": "81a8059a577ad67c3b288d74d681247b03f025da4a5999d20a959b1a877dcb5c",
+      "bytes": 226579,
+      "crc32": 1827733879,
+      "archive_offset": 4013985507,
+      "compressed_bytes": 226225
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000143.jpg": {
+      "sha256": "0a1358620e5395d2d4f58e303531919ff092f5a372361919d320b24f0d35f28a",
+      "bytes": 226850,
+      "crc32": 2714869909,
+      "archive_offset": 4000030279,
+      "compressed_bytes": 226481
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000157.jpg": {
+      "sha256": "cb13442cdec5fca8fc2dc191900a9a520ba8638757a9e5faf99b5353c3448c6d",
+      "bytes": 224058,
+      "crc32": 3254428383,
+      "archive_offset": 3999353710,
+      "compressed_bytes": 223718
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000202.jpg": {
+      "sha256": "5ffd96b851f22020185a40e2f3b090f1ecc8773ec8a73819ae6a34a05c9357af",
+      "bytes": 230534,
+      "crc32": 960396246,
+      "archive_offset": 4178428296,
+      "compressed_bytes": 230155
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000283.jpg": {
+      "sha256": "f420c0d920c755bd9b18d3b9ea6fafa07fa865ce7100b2e320145ef82c0d7a94",
+      "bytes": 234930,
+      "crc32": 3146532599,
+      "archive_offset": 4058468318,
+      "compressed_bytes": 234643
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000284.jpg": {
+      "sha256": "6cf3a5dd46a333d6d61ff4dde0a51860086d4fc28d051896bd20e1cc27138df5",
+      "bytes": 235676,
+      "crc32": 2217495873,
+      "archive_offset": 4020499227,
+      "compressed_bytes": 235388
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000298.jpg": {
+      "sha256": "8d2f947433857e8f7ea166e5df23334c29b06ee0d6e01c95549baca8b14afef6",
+      "bytes": 233538,
+      "crc32": 1043354084,
+      "archive_offset": 4091280466,
+      "compressed_bytes": 233224
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000343.jpg": {
+      "sha256": "e050b5982663f43a0012b7cd41b366fc7c4c150e098a5e8750c47fd9b2752940",
+      "bytes": 232009,
+      "crc32": 2759651925,
+      "archive_offset": 3996813937,
+      "compressed_bytes": 231704
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000424.jpg": {
+      "sha256": "648bfd46aa01076c58360bc43602eb3e17f5823a12d26aa81699c4fa7dfe2bdd",
+      "bytes": 229552,
+      "crc32": 1234552658,
+      "archive_offset": 3985449086,
+      "compressed_bytes": 229193
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000425.jpg": {
+      "sha256": "4783d403cfb7c951ac8b4d49d600bf8dee3ab3b8ab6324a8c0af4afb7e373f3b",
+      "bytes": 228980,
+      "crc32": 2965590212,
+      "archive_offset": 3996585219,
+      "compressed_bytes": 228620
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000439.jpg": {
+      "sha256": "849a9d43fd1755f537f6a417c099f11fa337fbdc8d38392a3b3a2e142d93a81f",
+      "bytes": 230589,
+      "crc32": 3761705990,
+      "archive_offset": 4171462855,
+      "compressed_bytes": 230238
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000484.jpg": {
+      "sha256": "e6e656d6b609c03fb6e03fdf7e44437606a94d502ede2f6cb9421d8528328103",
+      "bytes": 229395,
+      "crc32": 1487539242,
+      "archive_offset": 4052212640,
+      "compressed_bytes": 229091
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000566.jpg": {
+      "sha256": "e68ca4f7e40e775208f76d4941f72ee2b32ea32e858950c27ff9da08d613d813",
+      "bytes": 226250,
+      "crc32": 2274036829,
+      "archive_offset": 4186098795,
+      "compressed_bytes": 225896
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000567.jpg": {
+      "sha256": "1f02317f84f3459b62e4b474790336b2b8749b71e0ae2cda552aff787f027a48",
+      "bytes": 238249,
+      "crc32": 3725655590,
+      "archive_offset": 4192623118,
+      "compressed_bytes": 237818
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000581.jpg": {
+      "sha256": "13404824d96450335b69af0a411ba43c484435112b130bfcece2c57d4e4002b7",
+      "bytes": 225987,
+      "crc32": 2841663905,
+      "archive_offset": 3956866077,
+      "compressed_bytes": 225667
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000626.jpg": {
+      "sha256": "dacb2a4a677b2bbb10fa6ab35012aaee8d78616c14b4aeccafa2afa757ec9f36",
+      "bytes": 223815,
+      "crc32": 3179457571,
+      "archive_offset": 3983374883,
+      "compressed_bytes": 223469
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000707.jpg": {
+      "sha256": "e9ac279ab701fba78f13cc0a72c921935d1aee9599d311f14cb940fc314f4402",
+      "bytes": 230988,
+      "crc32": 91013656,
+      "archive_offset": 4130904556,
+      "compressed_bytes": 230602
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000708.jpg": {
+      "sha256": "f193533b20ccf975c64b38e710c1dbeabd488072d4c40e45d08e09ced3f5fca3",
+      "bytes": 232084,
+      "crc32": 3853456504,
+      "archive_offset": 4038014659,
+      "compressed_bytes": 231591
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000722.jpg": {
+      "sha256": "943a5a12a4d89474bb88e04ae1ad67db06a750c6a03384919ee24e9de0926b92",
+      "bytes": 228943,
+      "crc32": 3603022027,
+      "archive_offset": 4025149625,
+      "compressed_bytes": 228502
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000767.jpg": {
+      "sha256": "9d822b94c53e837b7d86a3d09b5171907d26200f99adbeee662e80651479aef5",
+      "bytes": 230887,
+      "crc32": 1251916699,
+      "archive_offset": 4173774537,
+      "compressed_bytes": 230523
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000848.jpg": {
+      "sha256": "5e4e4f9322e3818eda422a2d4dca3447f68b9e3754aece910bdc755c77b89105",
+      "bytes": 225567,
+      "crc32": 132968412,
+      "archive_offset": 4080159181,
+      "compressed_bytes": 225181
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000849.jpg": {
+      "sha256": "22a527e1a83faf0d62a2ac4747206aaa2d904db7cd66341360a9af237afd6c15",
+      "bytes": 237814,
+      "crc32": 1751926199,
+      "archive_offset": 4065883676,
+      "compressed_bytes": 237289
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000863.jpg": {
+      "sha256": "be6a35ea70da748c0e2a2305b0772fed37275cdad70a9eaa7973c7de5024308d",
+      "bytes": 227663,
+      "crc32": 1731078332,
+      "archive_offset": 4062445239,
+      "compressed_bytes": 227293
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000908.jpg": {
+      "sha256": "c890af701e0d653b82d6b8e2ffd2da1ff7774c23339a05e7963d0c369674dc2e",
+      "bytes": 230651,
+      "crc32": 3836987188,
+      "archive_offset": 4132054628,
+      "compressed_bytes": 230325
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000990.jpg": {
+      "sha256": "2e0a1c41eca807a67e1dcc45b6b36e7a4ea3895e24f2d7d7305fdcca7036c20c",
+      "bytes": 247751,
+      "crc32": 1448659897,
+      "archive_offset": 4148613924,
+      "compressed_bytes": 247293
+    },
+    "MOT17/train/MOT17-04-SDP/img1/000991.jpg": {
+      "sha256": "8c3533530e91329acd88015bb701e88ec55bb91ffe4c91f6de62f6d58eaa99ac",
+      "bytes": 238268,
+      "crc32": 227722885,
+      "archive_offset": 4145601998,
+      "compressed_bytes": 237991
+    },
+    "MOT17/train/MOT17-04-SDP/img1/001005.jpg": {
+      "sha256": "4421ebf0861ac17b65b74e6531dcf24c943103cfe5edda733ccbd93e4f74cd06",
+      "bytes": 247567,
+      "crc32": 675676154,
+      "archive_offset": 4017444251,
+      "compressed_bytes": 247099
+    },
+    "MOT17/train/MOT17-04-SDP/img1/001050.jpg": {
+      "sha256": "01d915628242a779ae16d3e99a2b5a8104bfe3dbee9732fdf907565fa30a3745",
+      "bytes": 246251,
+      "crc32": 553119302,
+      "archive_offset": 4156294050,
+      "compressed_bytes": 245748
+    },
+    "MOT17/train/MOT17-09-SDP/gt/gt.txt": {
+      "sha256": "592f0d5b519c03b35bb1578c33d726460f63abb91ea0c515f87e8d6d76be001d",
+      "bytes": 324307,
+      "crc32": 3637213866,
+      "archive_offset": 5716855702,
+      "compressed_bytes": 83480
+    },
+    "MOT17/train/MOT17-09-SDP/seqinfo.ini": {
+      "sha256": "439c4e3f764fa6fdf1171f238602ba6b32dc7a71a5cf8d17603d91e896a34fa8",
+      "bytes": 106,
+      "crc32": 3880085393,
+      "archive_offset": 5716939274,
+      "compressed_bytes": 101
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000001.jpg": {
+      "sha256": "e4b1c40c44d53489f191e1099156ad57d3963d8c434615750fba0065a8a572af",
+      "bytes": 201578,
+      "crc32": 1600000386,
+      "archive_offset": 5817123136,
+      "compressed_bytes": 197829
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000002.jpg": {
+      "sha256": "e39497429fbff8cd663e32358a277f49dcca4366f0799da7df5580846ae46a6b",
+      "bytes": 197823,
+      "crc32": 817870734,
+      "archive_offset": 5822489031,
+      "compressed_bytes": 194187
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000016.jpg": {
+      "sha256": "6331148ffacfa743fb8504db4cbf82e649bbd0114c13e92de1074f64dbe916b0",
+      "bytes": 199466,
+      "crc32": 3315014960,
+      "archive_offset": 5822683316,
+      "compressed_bytes": 195869
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000061.jpg": {
+      "sha256": "20b697548c4609fb2cd45ca94846e59a41f0063c052a303fb9b7b158b0816c73",
+      "bytes": 197896,
+      "crc32": 341075983,
+      "archive_offset": 5799611951,
+      "compressed_bytes": 194241
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000067.jpg": {
+      "sha256": "3cdd3eb1611c56e541cca6ae992ea0c78e7903945d0b100517bbd2ac95e46be4",
+      "bytes": 196918,
+      "crc32": 3555786885,
+      "archive_offset": 5786530137,
+      "compressed_bytes": 193334
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000068.jpg": {
+      "sha256": "124622867bb10d04e245b2c33a4d80ddf12cb9b8619b3cc38410f7671417d2cf",
+      "bytes": 197264,
+      "crc32": 2606541579,
+      "archive_offset": 5772022622,
+      "compressed_bytes": 193585
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000082.jpg": {
+      "sha256": "defbc184c18ab0afdab9ed8807b5e119bc263591c85ffc38329a86340cd94ec7",
+      "bytes": 197425,
+      "crc32": 4277393311,
+      "archive_offset": 5772812367,
+      "compressed_bytes": 193904
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000127.jpg": {
+      "sha256": "b5a9e066dfd9ddd46a655733ad54fdac753af74f1d4947c96e562f65e5ab325c",
+      "bytes": 204610,
+      "crc32": 1948983572,
+      "archive_offset": 5760574806,
+      "compressed_bytes": 201124
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000133.jpg": {
+      "sha256": "d77e2da74516f161cb163540d2116442212f4cb207e6baef109880788f896c88",
+      "bytes": 211098,
+      "crc32": 947664290,
+      "archive_offset": 5760367075,
+      "compressed_bytes": 207633
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000134.jpg": {
+      "sha256": "7edcde28f010b6b5c2a77bcc2215166ab070398e5b1cc069ee805945f18b8d51",
+      "bytes": 212735,
+      "crc32": 2210426603,
+      "archive_offset": 5768264998,
+      "compressed_bytes": 209231
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000148.jpg": {
+      "sha256": "62724fcd1afdf45dcc1ac3a463c62bd40bc774bc154a8f03d31535bfa134b70e",
+      "bytes": 199941,
+      "crc32": 3956703872,
+      "archive_offset": 5819595311,
+      "compressed_bytes": 196585
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000193.jpg": {
+      "sha256": "5b12b7a6cfddb123f45875e64d3c10461e169ef43971331926956690a4f74023",
+      "bytes": 195186,
+      "crc32": 2205242069,
+      "archive_offset": 5729598732,
+      "compressed_bytes": 192122
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000199.jpg": {
+      "sha256": "43712e70f58bf9e5943ef1cd87f4474ff1e66c79faec7c51697e91f868d60b39",
+      "bytes": 199120,
+      "crc32": 4094911606,
+      "archive_offset": 5808261693,
+      "compressed_bytes": 196025
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000200.jpg": {
+      "sha256": "fe6c12195136060ef0ffb5b330d377aa069ec58fe5db7d718ad39b4297158164",
+      "bytes": 201899,
+      "crc32": 3770019575,
+      "archive_offset": 5821879674,
+      "compressed_bytes": 198755
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000214.jpg": {
+      "sha256": "1e07b0a803dbc53526637b6d5bd634c13c981537eed4fbf9ffede801dfc738df",
+      "bytes": 201714,
+      "crc32": 1167194332,
+      "archive_offset": 5822078527,
+      "compressed_bytes": 198454
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000259.jpg": {
+      "sha256": "39f4df6dc829ad409731c05da7779db54c7e183c2014553097909514a659f0b2",
+      "bytes": 218420,
+      "crc32": 2285456758,
+      "archive_offset": 5785275795,
+      "compressed_bytes": 214776
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000266.jpg": {
+      "sha256": "5ae3b5bc347a9f535c9ab6a2392086226c066bfb059ddb725d5a2402cf2f8451",
+      "bytes": 217610,
+      "crc32": 222765300,
+      "archive_offset": 5778848791,
+      "compressed_bytes": 214134
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000267.jpg": {
+      "sha256": "52eb4194ae57ec234c123c9164b8b9dde6cda96418a38d3d1705c2501f98cbfd",
+      "bytes": 219198,
+      "crc32": 1705958726,
+      "archive_offset": 5781707567,
+      "compressed_bytes": 215570
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000281.jpg": {
+      "sha256": "c2f0bd7a46f947c98003f435e46be690477df6bee3dfb97649cdbe3436a649c6",
+      "bytes": 219222,
+      "crc32": 1908086919,
+      "archive_offset": 5771202147,
+      "compressed_bytes": 215552
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000326.jpg": {
+      "sha256": "a3ff16c7be3a694dcc2f63c86b05a32e1002398f12f6ff709fea086061bfbc0f",
+      "bytes": 212415,
+      "crc32": 743209770,
+      "archive_offset": 5751207844,
+      "compressed_bytes": 208652
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000332.jpg": {
+      "sha256": "587a3111ef73e5fa81c466b8cd80446e470a939c65155256a02c990950b3773a",
+      "bytes": 211096,
+      "crc32": 6210155,
+      "archive_offset": 5751843007,
+      "compressed_bytes": 207357
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000333.jpg": {
+      "sha256": "72525babd22df8f81513bad7f64531534f6781c31132271dc1ec6ae78a49b4fa",
+      "bytes": 212060,
+      "crc32": 2227886580,
+      "archive_offset": 5745216893,
+      "compressed_bytes": 208255
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000347.jpg": {
+      "sha256": "688428b30bfec27ee7a30a4aca1fa3837fe5a74a9eede0bb243d0d3c2a5354b3",
+      "bytes": 217895,
+      "crc32": 3165391136,
+      "archive_offset": 5724790305,
+      "compressed_bytes": 214136
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000392.jpg": {
+      "sha256": "a16dc1e72ef565dd226d78ab019e1c65dff5bee21d944444e490bf05fd5b1cde",
+      "bytes": 218470,
+      "crc32": 304562286,
+      "archive_offset": 5721495763,
+      "compressed_bytes": 214875
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000398.jpg": {
+      "sha256": "c0680fdab60355037a4c20ae2638a255ef8cadc5b56a3207ca11a7f305cccba0",
+      "bytes": 218270,
+      "crc32": 1695345481,
+      "archive_offset": 5812732028,
+      "compressed_bytes": 214719
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000399.jpg": {
+      "sha256": "91c58e6a96104c14bc654235e4f6805410aaf93c5b15c350c8d4f1f29e636904",
+      "bytes": 219028,
+      "crc32": 2163608552,
+      "archive_offset": 5810551662,
+      "compressed_bytes": 215474
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000413.jpg": {
+      "sha256": "22badc25389aba1e603d77902f95abab74065ede89d00ae23433ab4f0f9672d9",
+      "bytes": 215904,
+      "crc32": 3839656126,
+      "archive_offset": 5824525668,
+      "compressed_bytes": 212279
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000458.jpg": {
+      "sha256": "19b543e8265943a4516b3360f20dbcb4d34973de039a93168afff0598ca4c517",
+      "bytes": 215915,
+      "crc32": 3905784956,
+      "archive_offset": 5801842522,
+      "compressed_bytes": 212373
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000465.jpg": {
+      "sha256": "78ea61ffbe0ebfea075c42190be49cf41b323d4a907e07e8c7880a05aa5530ff",
+      "bytes": 210327,
+      "crc32": 426010628,
+      "archive_offset": 5797917723,
+      "compressed_bytes": 206783
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000466.jpg": {
+      "sha256": "cb027846db2f713a85e6aaf38f4b8ef1f3d9d707b347132e571a098d3ce33524",
+      "bytes": 209786,
+      "crc32": 976444096,
+      "archive_offset": 5790880196,
+      "compressed_bytes": 206186
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000480.jpg": {
+      "sha256": "c90b7001a2fc4ca366b01db8c47c8a13ede8afda33a4eb5b46fe20c7a67ec0b2",
+      "bytes": 212417,
+      "crc32": 3646038023,
+      "archive_offset": 5759104945,
+      "compressed_bytes": 208596
+    },
+    "MOT17/train/MOT17-09-SDP/img1/000525.jpg": {
+      "sha256": "38ba82bdba8518919ee8d6c22872a1710e16b4e43387ebf409adea93f686ebf1",
+      "bytes": 212087,
+      "crc32": 3561120761,
+      "archive_offset": 5774658792,
+      "compressed_bytes": 208405
+    }
+  }
+}

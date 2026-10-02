@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "archive_url": "https://motchallenge.net/data/MOT17.zip",
+  "archive_size": 5860214001,
+  "archive_etag": "\"15d4bc4f1-5b6c01991f807\"",
+  "sequences": {
+    "MOT17-02-SDP": 600,
+    "MOT17-04-SDP": 1050,
+    "MOT17-09-SDP": 525
+  },
+  "anchor_count_per_sequence": 8,
+  "gaps": [
+    1,
+    15,
+    60
+  ],
+  "sampling": "Eight evenly spaced integer anchors from frame 1 through seqLength-60 inclusive; compare each with +1,+15,+60. No selection based on model outputs. Fixed-camera sequences specified in MOTChallenge paper Appendix C table.",
+  "model_settings": {
+    "device": "cpu",
+    "conf": 0.25,
+    "iou": 0.7,
+    "imgsz": 640,
+    "max_det": 300,
+    "match_iou": 0.2
+  }
+}

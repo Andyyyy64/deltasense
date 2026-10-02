@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "package_version": "0.1.0",
+  "validation_date": "2026-10-02",
+  "source_integration_date": "2026-10-03",
+  "scope": "Recorded local verification; current commit CI is reported by GitHub Actions.",
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux x86_64 (WSL2)",
+    "device": "cpu"
+  },
+  "core_library_sha256": {
+    "engine.py": "517c3673150d9076452b26f88f1954d222befd1ef7b9b88ea2a79c6c9829d954",
+    "__init__.py": "72cab675ea9db39b9a8b0a11cf0c2bd1a141bd06b4f970f338a26557ae9f6e28",
+    "errors.py": "a05bfd4118ddcd08ef9ec5359113b7ce4ffbc1b68cae89ac2aa945feba81d422",
+    "comparison.py": "982dfc5723a562bc58e3da8fa106c0c9abad012fc8dcb4f21bd5bb22a45de4b1",
+    "result.py": "599f8590d76aee65b008756f49222199c6c36786234a1ab66f5bf52425252b83",
+    "observations.py": "10555be2c703aa990c131a57e56882b6ff2fbe8a9ab97c41fae52beb847c064f"
+  },
+  "runtime_versions": {
+    "deltasense_version": "0.1.0",
+    "ultralytics_version": "8.4.171",
+    "numpy_version": "2.5.2",
+    "pillow_version": "12.3.0",
+    "torch_version": "2.14.1+cpu"
+  },
+  "checkpoint_sha256": {
+    "detect": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+    "segment": "361fbfabab285c3237700b6bb91d7ecfa602cd945fffda8dbe1242829b71e73f"
+  },
+  "source_tests": {
+    "passed": 279,
+    "skipped": 0,
+    "failures": 0
+  },
+  "installed_wheel_tests": {
+    "passed": 279,
+    "skipped": 0,
+    "failures": 0
+  },
+  "coverage": {
+    "covered_lines": 433,
+    "num_statements": 433,
+    "percent_covered": 100.0,
+    "percent_covered_display": "100",
+    "missing_lines": 0,
+    "excluded_lines": 0,
+    "percent_statements_covered": 100.0,
+    "percent_statements_covered_display": "100",
+    "num_branches": 166,
+    "num_partial_branches": 0,
+    "covered_branches": 166,
+    "missing_branches": 0,
+    "percent_branches_covered": 100.0,
+    "percent_branches_covered_display": "100"
+  },
+  "selected_mutants_detected": 17,
+  "real_model_checks": {
+    "pair_cases_per_environment": 130,
+    "forward_reverse_comparisons_per_environment": 260,
+    "settings_error_checks_per_environment": 12,
+    "comparison_json_byte_identical": true,
+    "comparison_png_byte_identical": true,
+    "plot_count_per_environment": 130,
+    "network_events": [],
+    "original_images_unchanged": true
+  },
+  "human_annotation_evaluation": {
+    "unique_images": 96,
+    "pairs": 72,
+    "models": 2,
+    "comparisons": 144,
+    "previous_baseline_scores_equal_at_all_ious": true,
+    "previous_baseline_all_case_scores_equal": true,
+    "annotations_unchanged": true,
+    "images_unchanged": true,
+    "network_events": [],
+    "accuracy_improvement_claimed": false
+  },
+  "quickstart": {
+    "tasks": [
+      "detect",
+      "segment"
+    ],
+    "passed": true,
+    "network_events": [],
+    "original_image_unchanged": true
+  },
+  "development_versions": {
+    "pytest": "9.1.1",
+    "hypothesis": "6.168.3",
+    "pytest-cov": "7.1.0",
+    "ruff": "0.16.10",
+    "build": "1.6.1"
+  },
+  "verification_source_sha256": "22767ff39caf93ab1ae400446c382db8aa9d1742708c260ac53b7038f6de425a",
+  "limits": [
+    "This evidence identifies tested core source; integration updates documentation and packaging metadata.",
+    "Generated examples are separate from the pytest case count.",
+    "Selected mutation tests and coverage are not proof that no defects exist.",
+    "Repeated pairs and source/wheel reproduction are not independent accuracy samples.",
+    "MOT17 metrics are exploratory pair-comparison diagnostics, not official tracking scores or unseen-domain accuracy.",
+    "Model errors and unresolved or incorrect physical correspondence remain.",
+    "License selection and package/GitHub Release publication remain owner-deferred."
+  ]
+}

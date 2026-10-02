@@ -1,0 +1,22 @@
+{
+  "manifest": "artifacts/mot17/manifest-v1.json",
+  "manifest_sha256": "6c348236726b8665a8c6729ea1dbc50793477b42fe200523b8ce9818862e9154",
+  "purpose": "Exploratory resolution and confidence sensitivity on the same published training subset. No held-out generalization claim. Do not change library defaults based on these trials.",
+  "trials": [
+    {
+      "name": "baseline",
+      "imgsz": 640,
+      "conf": 0.25
+    },
+    {
+      "name": "resolution_1280",
+      "imgsz": 1280,
+      "conf": 0.25
+    },
+    {
+      "name": "resolution_1280_conf_010",
+      "imgsz": 1280,
+      "conf": 0.1
+    }
+  ]
+}
