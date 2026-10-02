@@ -15,6 +15,24 @@ See [the changelog](CHANGELOG.md) for the v0.1.0 scope and
 [GitHub Actions](https://github.com/Andyyyy64/deltasense/actions/workflows/ci.yml)
 for the checks on each commit.
 
+## Project goal
+
+DeltaSense aims to explain meaningful changes in the same subject across time,
+with measurements and evidence, while accounting for differences in how the
+images were captured.
+
+> 同じ対象の対応する領域を異なる時点で比較し、撮影条件による見え方の違いを考慮しながら、対象にとって意味のある変化を、その内容・量・根拠とともに説明する。測定した事実と解釈を区別し、判断できない場合は理由を示す。
+
+For example, the goal is to explain whether a person has moved forward along a
+road, rather than treating every image-coordinate difference as physical movement.
+Comparing the appearance of hair or facial contours over time is another example;
+each use case needs its own measurements and evidence for interpretation.
+
+**v0.1 provides the comparison foundation for this goal.** It compares model
+predictions in image coordinates; it does not yet determine real-world movement,
+hair loss, or weight change. See [the project concept](docs/concept.md) for examples,
+the distinction between measurements and interpretations, and criteria for progress.
+
 ## Install locally
 
 The verified baseline is CPython 3.12 on Linux x86-64 with CPU inference. Runtime
