@@ -17,11 +17,11 @@ for the checks on each commit.
 
 ## Project goal
 
-DeltaSense aims to explain meaningful changes in the same subject across time,
-with measurements and evidence, while accounting for differences in how the
-images were captured.
-
-> 同じ対象の対応する領域を異なる時点で比較し、撮影条件による見え方の違いを考慮しながら、対象にとって意味のある変化を、その内容・量・根拠とともに説明する。測定した事実と解釈を区別し、判断できない場合は理由を示す。
+Compare corresponding regions of the same subject at different times, accounting
+for differences in how the images were captured. Explain meaningful changes in
+the subject, including what changed, by how much, and the supporting evidence.
+Distinguish measurements from interpretations, and explain why a conclusion
+cannot be reached when the evidence is insufficient.
 
 For example, the goal is to explain whether a person has moved forward along a
 road, rather than treating every image-coordinate difference as physical movement.
@@ -98,9 +98,9 @@ models. Explicit real-model verification is separate; see
 - [API, matching, units, and errors](docs/api.md)
 - [Release requirements](docs/requirements.md), mirrored from [issue #1](https://github.com/Andyyyy64/deltasense/issues/1)
 - [Validation evidence and limitations](docs/validation.md)
-- [暫定ラベル付き実画像の精度評価](docs/accuracy.md)
-- [人手ラベル付き映像での精度・設定比較](docs/mot17-accuracy.md)
-- [評価データと再実行手順](evaluation/README.md)
+- [Real-image accuracy evaluation with provisional labels (Japanese)](docs/accuracy.md)
+- [Accuracy and configuration comparison on manually labeled video (Japanese)](docs/mot17-accuracy.md)
+- [Evaluation data and reproduction instructions](evaluation/README.md)
 - [Project concept](docs/concept.md)
 
 v0.2 is planned to add bounded automatic camera alignment and geometric validity

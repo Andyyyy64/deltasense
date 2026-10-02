@@ -2,47 +2,59 @@
 
 Most computer vision libraries analyze one image at a time. DeltaSense is about the gap between two observations.
 
-## プロジェクトのゴール（センターピン）
+## Project goal
 
-> 同じ対象の対応する領域を異なる時点で比較し、撮影条件による見え方の違いを考慮しながら、対象にとって意味のある変化を、その内容・量・根拠とともに説明する。測定した事実と解釈を区別し、判断できない場合は理由を示す。
+Compare corresponding regions of the same subject at different times, accounting
+for differences in how the images were captured. Explain meaningful changes in
+the subject, including what changed, by how much, and the supporting evidence.
+Distinguish measurements from interpretations, and explain why a conclusion
+cannot be reached when the evidence is insufficient.
 
-利用者が知りたいのは、「何が、どのくらい変わったのか」「そう判断できる根拠は何か」です。
-対象の対応付け、比較できる撮影条件の確認、変化の測定、その意味の説明を、このゴールに向けて進めます。
-量を測れない場合は、測れない理由を示し、数値を作りません。
+Users want to know what changed, by how much, and what supports that conclusion.
+Matching subjects, checking whether capture conditions allow comparison,
+measuring changes, and explaining their meaning all serve this goal.
+When a change cannot be quantified, explain why instead of inventing a value.
 
-### 測定と解釈の具体例
+### Examples of measurements and interpretations
 
-以下は目指す利用例であり、v0.1で実現済みの機能ではありません。
+These are intended use cases, not features already implemented in v0.1.
 
-| 利用者の問い | 画像から測定・観察するもの | 解釈に必要な根拠・限界 |
+| User question | What to measure or observe in the images | Evidence needed for interpretation and its limits |
 | --- | --- | --- |
-| 同じ道にいる人は前に進んだ？ | 対応する人物の位置の差 | 同じ人物であること、道路に対する位置、撮影位置の違いを確認する。「前」が道路の進行方向・本人の向き・カメラ側のどれなのかも定義する。 |
-| 1年前より髪が薄くなった？ | 対応する頭部領域の髪や頭皮の見え方の差 | 光、角度、髪型などによる違いを考慮する。頭皮が多く見えるだけでは、髪が減ったとは断定しない。 |
-| 顔を比べて太ったか知りたい | 対応する顔領域の輪郭や頬の見え方の差 | 距離、角度、表情などによる違いを考慮する。顔の見え方だけで体重の増加を確定することはできない。 |
+| Did the person move forward along the same road? | The position difference for the corresponding person | Establish that it is the same person, compare positions relative to the road, and account for camera position changes. Define whether "forward" means along the road, in the direction the person faces, or toward the camera. |
+| Has my hair become thinner over the past year? | Differences in the appearance of hair and scalp in corresponding head regions | Account for lighting, angle, and hairstyle. More visible scalp alone does not establish hair loss. |
+| Can facial photos tell me whether I gained weight? | Differences in facial contours and cheek appearance in corresponding regions | Account for distance, angle, and expression. Facial appearance alone cannot confirm weight gain. |
 
-例えば人物の画像座標が変わったことは測定結果です。
-そこから「道路の進行方向へ移動した」と説明するには、道路を基準にした比較と、それを支える根拠が必要です。
-2枚の写真から分かるのは撮影時点の位置の違いであり、途中の経路や歩き続けていたことまでは分かりません。
+A difference in a person's image coordinates is a measurement. Explaining that
+the person moved forward along the road requires comparison relative to the road
+and evidence supporting that interpretation. Two photos show positions at the
+capture times; they do not establish the intervening path or continuous walking.
 
-### 進む方向を判断する基準
+### Criteria for progress
 
-- 同じ対象の対応する領域を比較し、比較対象や方向、単位を明示できる。
-- 撮影条件だけが変わった例で、対象の状態が変わったと誤って説明しない。
-- 対象が実際に変わった例で、変化の内容・量・根拠を示せる。
-- 根拠が足りない例で、判断できない内容と理由を示せる。
+- Compare corresponding regions of the same subject and state the comparison
+  reference, direction, and units.
+- Avoid claiming a subject changed when only capture conditions changed.
+- Describe actual subject changes with their magnitude and supporting evidence.
+- State what cannot be determined and why when evidence is insufficient.
 
-検証では、用途ごとの正解付きbefore／afterで見逃し・誤警報・対応付けを評価します。
-判断を保留した割合も併せて確認し、すべてを「判断不能」にするだけでは達成としません。
-頭部や顔は代表例です。特定の部位専用の製品に限定することは、このゴールに含めません。
+Evaluate missed changes, false alarms, and correspondence accuracy using labeled
+before/after pairs for each use case. Also measure how often the system withholds
+a conclusion; returning "cannot determine" for every pair does not meet the goal.
+Heads and faces are representative examples. The goal does not restrict the
+product to a particular body region.
 
-## ゴールと現在のバージョンの関係
+## Relationship to current versions
 
-v0.1は、モデルが観測した結果を比較し、測定結果と限界を返すための基盤です。
-撮影条件を自動で確認したり、「人が前進した」「髪が薄くなった」「体重が増えた」と解釈したりする機能は未実装です。
+v0.1 provides a foundation for comparing model observations and reporting
+measurements and limits. It does not automatically verify capture conditions or
+interpret results as forward movement, hair loss, or weight gain.
 
-予定されているv0.2の限定的なカメラ位置合わせと幾何学的な妥当性確認は、比較可能性を改善する一歩です。
-それだけで、照明・姿勢・奥行きの違いや、用途ごとの意味の解釈がすべて解決するわけではありません。
-このゴールはプロジェクト全体の方向性であり、既存のv0.1の完了条件や、後続バージョンの実装済み機能を表すものではありません。
+The bounded camera alignment and geometric validity checks planned for v0.2 are
+a step toward more comparable observations. They do not resolve every lighting,
+pose, or depth difference, or every use case's interpretation requirements.
+The goal describes the project's direction. It does not redefine the existing
+v0.1 completion criteria or imply that future capabilities are already implemented.
 
 ## Initial implementation approach
 
